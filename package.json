@@ -10,8 +10,8 @@
 
     "build:href": "ng build --base-href ./",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles dist/productpreviewcard/* ./docs -f",
-    "copy:dist:assets": "copyfiles dist/productpreviewcard/assets/* ./docs/assets -f",
+    "copy:dist": "copyfiles dist/product-preview-card/* ./docs -f",
+    "copy:dist:assets": "copyfiles dist/product-preview-card/assets/* ./docs/assets -f",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist && npm run copy:dist:assets"
   },
   "private": true,
